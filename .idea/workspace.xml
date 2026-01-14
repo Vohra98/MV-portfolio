@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ae51f9af-5c77-4183-8a44-3eea77534978" name="Changes" comment="" />
+    <list default="true" id="ae51f9af-5c77-4183-8a44-3eea77534978" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/(portfolio)/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(sanity)/studio/[[...tool]]/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/PortfolioContent.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/sections/HeroSection.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sanity-typegen.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(portfolio)/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,9 +27,9 @@
   <component name="OptimizeOnSaveOptions">
     <option name="myRunOnSave" value="true" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="38DKK0tB0iTe1R4SuiO2ToHroLU" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -23,6 +37,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -38,11 +53,17 @@
     "nodejs_package_manager_path": "npm",
     "npm.dev.executor": "Run",
     "rearrange.code.on.save": "true",
-    "settings.editor.selected.configurable": "Settings.Biome",
+    "settings.editor.selected.configurable": "actions.on.save",
     "ts.external.directory.path": "/Users/muhammad.vohra/Developer/muhammad-vohra-cv/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/(portfolio)" />
+      <recent name="$PROJECT_DIR$/app/(sanity)" />
+    </key>
+  </component>
   <component name="RunManager" selected="npm.dev">
     <configuration name="Next.js: debug client-side" type="JavascriptDebugType" uri="http://localhost:3000/">
       <method v="2" />
@@ -91,6 +112,7 @@
       <option name="presentableId" value="Default" />
       <updated>1768328634710</updated>
       <workItem from="1768328636769" duration="1904000" />
+      <workItem from="1768330603087" duration="11352000" />
     </task>
     <servers />
   </component>
