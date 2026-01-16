@@ -2,17 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae51f9af-5c77-4183-8a44-3eea77534978" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/(portfolio)/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/(sanity)/studio/[[...tool]]/layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/PortfolioContent.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/sections/HeroSection.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proxy.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sanity-typegen.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/sections/ProfileImage.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(portfolio)/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(portfolio)/layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(portfolio)/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components.json" beforeDir="false" afterPath="$PROJECT_DIR$/components.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/PortfolioContent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/PortfolioContent.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/sections/HeroSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/sections/HeroSection.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
@@ -48,6 +45,7 @@
     "javascript.preferred.runtime.type.id": "node",
     "js.debugger.nextJs.config.created.client": "true",
     "js.debugger.nextJs.config.created.server": "true",
+    "last_opened_file_path": "/Users/muhammad.vohra/Developer/muhammad-vohra-cv/components/sections",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
@@ -59,6 +57,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/components/sections" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/(portfolio)" />
       <recent name="$PROJECT_DIR$/app/(sanity)" />
@@ -112,7 +113,8 @@
       <option name="presentableId" value="Default" />
       <updated>1768328634710</updated>
       <workItem from="1768328636769" duration="1904000" />
-      <workItem from="1768330603087" duration="11352000" />
+      <workItem from="1768330603087" duration="13090000" />
+      <workItem from="1768572666443" duration="9383000" />
     </task>
     <servers />
   </component>
