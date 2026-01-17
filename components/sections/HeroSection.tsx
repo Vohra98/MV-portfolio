@@ -1,10 +1,10 @@
-import {defineQuery} from "groq";
+import { defineQuery } from "groq";
 import Link from "next/link";
-import {ProfileImage} from "@/components/sections/ProfileImage";
-import {BackgroundRippleEffect} from "@/components/ui/background-ripple-effect";
-import {LayoutTextFlip} from "@/components/ui/layout-text-flip";
-import {urlFor} from "@/sanity/lib/image";
-import {sanityFetch} from "@/sanity/lib/live";
+import { ProfileImage } from "@/components/ProfileImage";
+import { BackgroundRippleEffect } from "@/components/ui/background-ripple-effect";
+import { LayoutTextFlip } from "@/components/ui/layout-text-flip";
+import { urlFor } from "@/sanity/lib/image";
+import { sanityFetch } from "@/sanity/lib/live";
 
 const HERO_QUERY = defineQuery(`*[_id == "singleton-profile"][0]{
   firstName,

@@ -1,20 +1,20 @@
 import {
-    AsteriskIcon,
-    BookIcon,
-    CaseIcon,
-    CogIcon,
-    CommentIcon,
-    ComposeIcon,
-    DocumentIcon,
-    DocumentsIcon,
-    InlineIcon,
-    ProjectsIcon,
-    RocketIcon,
-    StarIcon,
-    TagIcon,
-    UserIcon,
+  AsteriskIcon,
+  BookIcon,
+  CaseIcon,
+  CogIcon,
+  CommentIcon,
+  ComposeIcon,
+  DocumentIcon,
+  DocumentsIcon,
+  InlineIcon,
+  ProjectsIcon,
+  RocketIcon,
+  StarIcon,
+  TagIcon,
+  UserIcon,
 } from "@sanity/icons";
-import type {StructureResolver} from "sanity/structure"; // https://www.sanity.io/docs/structure-builder-cheat-sheet
+import type { StructureResolver } from "sanity/structure"; // https://www.sanity.io/docs/structure-builder-cheat-sheet
 
 // https://www.sanity.io/docs/structure-builder-cheat-sheet
 export const structure: StructureResolver = (S) =>
