@@ -1,47 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ae51f9af-5c77-4183-8a44-3eea77534978" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/components/SidebarToggle.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/sections/AboutSection.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/actions/create-session.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/chat/Chat.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/chat/ChatWrapper.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/config.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/(portfolio)/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(portfolio)/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(sanity)/studio/[[...tool]]/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(sanity)/studio/[[...tool]]/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(sanity)/studio/[[...tool]]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(sanity)/studio/[[...tool]]/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/PortfolioContent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/PortfolioContent.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/app-sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/app-sidebar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/sections/HeroSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/sections/HeroSection.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/sections/ProfileImage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ProfileImage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/breadcrumb.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/breadcrumb.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/button.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/input.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/input.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/layout-text-flip.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/layout-text-flip.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/separator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/separator.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/sheet.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/sheet.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/ui/sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/sidebar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/skeleton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/skeleton.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/tooltip.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/tooltip.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hooks/use-mobile.ts" beforeDir="false" afterPath="$PROJECT_DIR$/hooks/use-mobile.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy.ts" beforeDir="false" afterPath="$PROJECT_DIR$/proxy.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sanity.cli.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sanity.cli.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sanity.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sanity.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sanity.types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sanity.types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sanity/env.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sanity/env.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sanity/lib/client.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sanity/lib/client.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sanity/lib/image.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sanity/lib/image.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sanity/lib/live.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sanity/lib/live.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sanity/structure.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sanity/structure.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_/Users/muhammad.vohra/Developer/muhammad-vohra-cv" value="38DKK0tB0iTe1R4SuiO2ToHroLU" />
+    </persistenceIdMap>
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="76" />
+    <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
   </component>
   <component name="OptimizeOnSaveOptions">
     <option name="myRunOnSave" value="true" />
@@ -59,27 +55,34 @@
     "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "main",
     "javascript.preferred.runtime.type.id": "node",
     "js.debugger.nextJs.config.created.client": "true",
     "js.debugger.nextJs.config.created.server": "true",
-    "last_opened_file_path": "/Users/muhammad.vohra/Developer/muhammad-vohra-cv/components/sections",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "/Users/muhammad.vohra/Developer/muhammad-vohra-cv/actions",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "npm.dev.executor": "Run",
     "rearrange.code.on.save": "true",
-    "settings.editor.selected.configurable": "actions.on.save",
+    "settings.editor.selected.configurable": "ml.llm.LLMAIWorkflowsConfigurable",
+    "to.speed.mode.migration.done": "true",
     "ts.external.directory.path": "/Users/muhammad.vohra/Developer/muhammad-vohra-cv/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/actions" />
       <recent name="$PROJECT_DIR$/components/sections" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -117,8 +120,8 @@
     </configuration>
     <list>
       <item itemvalue="JavaScript Debug.Next.js: debug client-side" />
-      <item itemvalue="npm.dev" />
       <item itemvalue="npm.Next.js: server-side" />
+      <item itemvalue="npm.dev" />
     </list>
   </component>
   <component name="SharedIndexes">
@@ -137,7 +140,10 @@
       <updated>1768328634710</updated>
       <workItem from="1768328636769" duration="1904000" />
       <workItem from="1768330603087" duration="13090000" />
-      <workItem from="1768572666443" duration="12322000" />
+      <workItem from="1768572666443" duration="14674000" />
+      <workItem from="1768824292846" duration="54000" />
+      <workItem from="1768824359147" duration="45000" />
+      <workItem from="1768824411067" duration="6141000" />
     </task>
     <servers />
   </component>
