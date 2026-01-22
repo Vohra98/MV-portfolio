@@ -1,9 +1,9 @@
 "use client";
 
-import {ChatKit, useChatKit} from "@openai/chatkit-react";
-import {createSession} from "@/actions/create-session";
-import {useSidebar} from "@/components/ui/sidebar";
-import type {CHAT_PROFILE_QUERYResult} from "@/sanity.types";
+import { ChatKit, useChatKit } from "@openai/chatkit-react";
+import { createSession } from "@/actions/create-session";
+import { useSidebar } from "@/components/ui/sidebar";
+import type { CHAT_PROFILE_QUERYResult } from "@/sanity.types";
 
 const Chat = ({ profile }: { profile: CHAT_PROFILE_QUERYResult | null }) => {
   const { toggleSidebar } = useSidebar();
