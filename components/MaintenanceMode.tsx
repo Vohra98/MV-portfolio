@@ -11,9 +11,12 @@ export default function MaintenanceMode() {
   const [particles, setParticles] = useState<
     Array<{ id: number; x: number; y: number; delay: number }>
   >([]);
+  const [mounted, setMounted] = useState(false);
   const { toggleSidebar } = useSidebar();
-  const { isSignedIn } = useUser();
+  const { isSignedIn, isLoaded } = useUser();
   useEffect(() => {
+    setMounted(true);
+
     // Pulsing glow effect
     const glowInterval = setInterval(() => {
       setGlowIntensity((prev) => (prev >= 100 ? 0 : prev + 1));
@@ -132,27 +135,34 @@ export default function MaintenanceMode() {
         {/* Action Buttons */}
         <div className="pointer mb-16 flex flex-col sm:flex-row gap-4 justify-center items-center">
           {/* Chat with AI Button */}
-          {isSignedIn ? (
-            <button
-              type="button"
-              onClick={toggleSidebar}
-              className="group relative inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-[#1A92A7] via-[#5CC8DB] to-[#1A92A7] hover:from-[#5CC8DB] hover:via-[#1A92A7] hover:to-[#5CC8DB] rounded-full text-white font-semibold text-lg transition-all duration-500 hover:scale-105 hover:shadow-[0_0_40px_rgba(26,146,167,0.6)] shadow-[0_0_20px_rgba(26,146,167,0.3)]"
-            >
-              <MessageSquare className="w-6 h-6 group-hover:rotate-12 transition-transform duration-300" />
-              <span>Chat with My AI</span>
-              <div className="absolute inset-0 rounded-full bg-white opacity-0 group-hover:opacity-20 transition-opacity duration-300" />
-            </button>
-          ) : (
-            <SignInButton mode="modal">
+          {mounted && isLoaded ? (
+            isSignedIn ? (
               <button
                 type="button"
+                onClick={toggleSidebar}
                 className="group relative inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-[#1A92A7] via-[#5CC8DB] to-[#1A92A7] hover:from-[#5CC8DB] hover:via-[#1A92A7] hover:to-[#5CC8DB] rounded-full text-white font-semibold text-lg transition-all duration-500 hover:scale-105 hover:shadow-[0_0_40px_rgba(26,146,167,0.6)] shadow-[0_0_20px_rgba(26,146,167,0.3)]"
               >
                 <MessageSquare className="w-6 h-6 group-hover:rotate-12 transition-transform duration-300" />
                 <span>Chat with My AI</span>
                 <div className="absolute inset-0 rounded-full bg-white opacity-0 group-hover:opacity-20 transition-opacity duration-300" />
               </button>
-            </SignInButton>
+            ) : (
+              <SignInButton mode="modal">
+                <button
+                  type="button"
+                  className="group relative inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-[#1A92A7] via-[#5CC8DB] to-[#1A92A7] hover:from-[#5CC8DB] hover:via-[#1A92A7] hover:to-[#5CC8DB] rounded-full text-white font-semibold text-lg transition-all duration-500 hover:scale-105 hover:shadow-[0_0_40px_rgba(26,146,167,0.6)] shadow-[0_0_20px_rgba(26,146,167,0.3)]"
+                >
+                  <MessageSquare className="w-6 h-6 group-hover:rotate-12 transition-transform duration-300" />
+                  <span>Chat with My AI</span>
+                  <div className="absolute inset-0 rounded-full bg-white opacity-0 group-hover:opacity-20 transition-opacity duration-300" />
+                </button>
+              </SignInButton>
+            )
+          ) : (
+            <div className="group relative inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-[#1A92A7] via-[#5CC8DB] to-[#1A92A7] rounded-full text-white font-semibold text-lg shadow-[0_0_20px_rgba(26,146,167,0.3)] opacity-50">
+              <MessageSquare className="w-6 h-6" />
+              <span>Loading...</span>
+            </div>
           )}
 
           {/* Download CV Button */}
