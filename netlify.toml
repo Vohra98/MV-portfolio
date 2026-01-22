@@ -1,0 +1,11 @@
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[build.environment]
+  # Omit NEXT_PUBLIC_* variables from secrets scanning
+  # These are intentionally public in Next.js and exposed to the browser
+  SECRETS_SCAN_OMIT_KEYS = "NEXT_PUBLIC_SANITY_DATASET,NEXT_PUBLIC_SANITY_PROJECT_ID,NEXT_PUBLIC_SANITY_API_VERSION"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
