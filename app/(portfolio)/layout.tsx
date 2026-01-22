@@ -1,12 +1,11 @@
-import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import type {Metadata} from "next";
+import {Geist, Geist_Mono} from "next/font/google";
 import "../globals.css";
-import { ClerkProvider } from "@clerk/nextjs";
+import {ClerkProvider} from "@clerk/nextjs";
 import Script from "next/script";
-import { AppSidebar } from "@/components/app-sidebar";
-import SidebarToggle from "@/components/SidebarToggle";
-import { SidebarInset, SidebarProvider } from "@/components/ui/sidebar";
-import { SanityLive } from "@/sanity/lib/live";
+import {AppSidebar} from "@/components/app-sidebar";
+import {SidebarInset, SidebarProvider} from "@/components/ui/sidebar";
+import {SanityLive} from "@/sanity/lib/live";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -39,16 +38,17 @@ export default function RootLayout({
             }
             strategy="afterInteractive"
           />
+          <title>Muhammad Vohra Portfolio</title>
         </head>
         <body
           className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         >
-          <SidebarProvider>
+          <SidebarProvider defaultOpen={false}>
             <SidebarInset>{children}</SidebarInset>
             <AppSidebar side={"right"} />
 
             {/*<FloatingDock />*/}
-            <SidebarToggle />
+            {/*<SidebarToggle />*/}
 
             {/*/!* Mode Toggle - Desktop: bottom right next to AI chat, Mobile: top right next to burger menu *!/*/}
             {/*<div className="fixed md:bottom-6 md:right-24 top-4 right-18 md:top-auto md:left-auto z-20">*/}
