@@ -23,15 +23,11 @@ export const AnimatedTestimonials = ({
   useEffect(() => {
     // Generate random rotations only on the client after hydration
     setRotations(testimonials.map(() => Math.floor(Math.random() * 21) - 10));
-  }, [testimonials.length]);
+  }, [testimonials]);
 
   const handleNext = useCallback(() => {
     setActive((prev) => (prev + 1) % testimonials.length);
   }, [testimonials.length]);
-
-  const handlePrev = () => {
-    setActive((prev) => (prev - 1 + testimonials.length) % testimonials.length);
-  };
 
   const isActive = (index: number) => {
     return index === active;

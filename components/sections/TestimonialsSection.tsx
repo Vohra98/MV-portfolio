@@ -1,7 +1,7 @@
-import {defineQuery} from "groq";
-import {AnimatedTestimonials} from "@/components/ui/animated-testimonials";
-import {urlFor} from "@/sanity/lib/image";
-import {sanityFetch} from "@/sanity/lib/live";
+import { defineQuery } from "groq";
+import { AnimatedTestimonials } from "@/components/ui/animated-testimonials";
+import { urlFor } from "@/sanity/lib/image";
+import { sanityFetch } from "@/sanity/lib/live";
 
 const TESTIMONIALS_QUERY = defineQuery(
   `*[_type == "testimonial" && featured == true] | order(order asc){
