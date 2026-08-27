@@ -6,10 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="ae51f9af-5c77-4183-8a44-3eea77534978" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(portfolio)/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(portfolio)/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(portfolio)/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(portfolio)/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/MaintenanceMode.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/MaintenanceMode.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sanity/runtime/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/.sanity/runtime/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sanity.types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sanity.types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sanity/schemaTypes/project.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sanity/schemaTypes/project.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schema.json" beforeDir="false" afterPath="$PROJECT_DIR$/schema.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +22,7 @@
     </persistenceIdMap>
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="82" />
+    <option name="cachedIndexableFilesCount" value="87" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="Git.Settings">
@@ -53,6 +53,7 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "main",
     "javascript.preferred.runtime.type.id": "node",
@@ -73,6 +74,14 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="ReactDesignerToolWindowState">
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.intellij.reactbuddy.reactComponents" value="false" />
+        <entry key="com.intellij.reactbuddy.reactInspector" value="false" />
+      </map>
+    </option>
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public" />
@@ -121,7 +130,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-WS-253.29346.242" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-WS-262.8665.341" />
       </set>
     </attachedChunks>
   </component>
@@ -138,7 +147,9 @@
       <workItem from="1768824292846" duration="54000" />
       <workItem from="1768824359147" duration="45000" />
       <workItem from="1768824411067" duration="16937000" />
-      <workItem from="1769095359446" duration="4928000" />
+      <workItem from="1769095359446" duration="11321000" />
+      <workItem from="1769357690488" duration="2316000" />
+      <workItem from="1787838615961" duration="1734000" />
     </task>
     <servers />
   </component>

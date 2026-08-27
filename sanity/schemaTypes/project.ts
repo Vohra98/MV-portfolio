@@ -1,4 +1,4 @@
-import { defineField, defineType } from "sanity";
+import {defineField, defineType} from "sanity";
 
 export default defineType({
   name: "project",
@@ -73,6 +73,13 @@ export default defineType({
         ],
       },
       validation: (Rule) => Rule.required(),
+    }),
+    defineField({
+      name: "description",
+      title: "Description",
+      type: "array",
+      of: [{ type: "block" }],
+      description: "Detailed job responsibilities and achievements",
     }),
     defineField({
       name: "liveUrl",

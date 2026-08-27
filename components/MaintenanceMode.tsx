@@ -167,7 +167,7 @@ export default function MaintenanceMode() {
 
           {/* Download CV Button */}
           <a
-            href="/Muhammad Vohra.pdf"
+            href="/MuhammadVohra.pdf"
             download="Muhammad_Vohra_CV.pdf"
             className="group relative inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-[#1A92A7] via-[#5CC8DB] to-[#1A92A7] hover:from-[#5CC8DB] hover:via-[#1A92A7] hover:to-[#5CC8DB] rounded-full text-white font-semibold text-lg transition-all duration-500 hover:scale-105 hover:shadow-[0_0_40px_rgba(26,146,167,0.6)] shadow-[0_0_20px_rgba(26,146,167,0.3)]"
           >
